@@ -23,6 +23,7 @@ COPY --from=ckb-orig \
      /usr/lib/x86_64-linux-gnu/
 
 COPY --from=ckb-orig /bin/ckb /bin/ckb
+COPY ./check.sh /bin/check-ckb
 RUN /bin/ckb init --chain dev --force \
  && chown -R ckb:ckb /var/lib/ckb \
  && chmod 755 /var/lib/ckb
