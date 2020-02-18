@@ -1,4 +1,4 @@
-FROM nervos/ckb:v0.27.0 as ckb-orig
+FROM nervos/ckb:v0.28.0 as ckb-orig
 USER root
 
 RUN set -eux; \
