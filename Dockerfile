@@ -1,6 +1,6 @@
 # Version 0.32.1
-#FROM nervos/ckb:v0.32.0 as ckb-orig
-FROM nervos/ckb:latest as ckb-orig
+FROM nervos/ckb:v0.34.1 as ckb-orig
+#FROM nervos/ckb:latest as ckb-orig
 USER root
 
 RUN set -eux; \
