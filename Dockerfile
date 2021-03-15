@@ -1,5 +1,5 @@
 # Version 0.39.1
-FROM nervos/ckb:v0.39.2 as ckb-orig
+FROM nervos/ckb:v0.40.0 as ckb-orig
 #FROM nervos/ckb:latest as ckb-orig
 USER root
 
